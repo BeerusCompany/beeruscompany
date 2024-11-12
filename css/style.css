@@ -1,0 +1,138 @@
+ html {
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("../img/fundo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header {
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 30px;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 18px;
+  font-style: Thin 100;
+  text-align: center;
+}
+
+h4 {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000
+}
+
+p {
+  color: #ffffff;
+  font-size: 18px;
+  font-style: Thin 100;
+}
+
+img {
+  padding: 10px;
+}
+
+li{
+  color: #ffffff;
+  size: 18px;
+}
+
+a {
+  font-size: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #837e8b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+iframe {
+  padding-top: 50px;
+}
+
+figcaption {
+  color: #ffffff;
+}
+
+.topnav a:hover {
+  background-color: #a2b2c8;
+  color: black;
+}
+
+nav {
+  float: left;
+  width: 30%;
+   padding: 20px;
+  background-color: transparent;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 60%;
+  background-color: transparent;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #5e5e6e;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
